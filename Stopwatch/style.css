@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: url('https://media.istockphoto.com/id/1696167872/photo/aerial-view-of-forest-at-sunset-on-the-background-of-mountains-in-dolomites.jpg?s=2048x2048&w=is&k=20&c=uLAmWeg4couEsq_U62PY4mfUnM7Zut1RxGYDHhqYCNs=');
+
+}
+h2{
+    text-transform: uppercase;
+
+}
+.clock{
+    display: flex;
+    
+}
+.clock div{
+    margin: 5px;
+    border: 2px solid white;
+}
+.clock span{
+    color: white;
+    background: #064210;
+    opacity: 0.8;
+    height: 80px;
+    width: 190px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 4px 13px rgba(0,0,0,0.9);
+    box-shadow: 4px 4px  13px rgba(0,0,0,0.5);
+
+}
+
+.clock .text{
+    background: #2a4d26;
+    
+
+}
+.controls button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background: #f7e7e7;
+    box-shadow: 2px 4px 13px rgba(0,0,0,0.5);
+    color: rgb(11, 58, 11);
+    cursor: ponter;
+    transition: 0.4s;
+    font-size: 30px;
+}
+.controls button:hover{
+    background:  #064210;
+    color: white;
+    cursor: pointer;
+}
